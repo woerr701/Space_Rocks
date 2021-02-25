@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_asteroid_huge",
-    "path": "sprites/spr_asteroid_huge/spr_asteroid_huge.yy",
+    "name": "spr_asteroid_small",
+    "path": "sprites/spr_asteroid_small/spr_asteroid_small.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
