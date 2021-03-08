@@ -27,7 +27,7 @@ UP: Move Charactor
 
 LEFT/RIGHT: Change Direction
 
-SPACE; Shoot 
+SPACE: Shoot 
 
 
 
