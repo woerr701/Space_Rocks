@@ -10,7 +10,7 @@ if(room == rm_game){
 			irandom_range(0, room_height*0.6),
 			irandom_range(room_height*0.14, room_width)
 			);
-		instance_create_layer(xx, yy, "Instances", obj_asteroid); 
+		
 	}
 	
 	alarm[0] = 60;
