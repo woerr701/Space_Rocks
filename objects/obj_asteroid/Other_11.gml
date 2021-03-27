@@ -1,12 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Take Damage
+
+
 score += 10;
 
 
 instance_destroy();
-
-with(other){
-	instance_destroy();
 	
 	if(sprite_index == spr_asteroid_huge){
 		repeat(2){
@@ -24,4 +22,3 @@ with(other){
 		repeat(10){
 		instance_create_layer(x,y, "Instances", obj_debris);
 		}
-}
