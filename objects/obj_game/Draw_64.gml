@@ -19,7 +19,7 @@ switch(room){
 		
 		draw_text(
 		room_width/2, 400, 
-@"Score 1,000 points to win!
+@"Score 1,500 points to win!
 
 
 
