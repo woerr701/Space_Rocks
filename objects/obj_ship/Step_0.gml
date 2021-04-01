@@ -12,9 +12,9 @@ if(keyboard_check(vk_up)){
 
 move_wrap(true, true, sprite_width/2);
 
-if(keyboard_check_pressed(vk_space)){
+if(keyboard_check_pressed(vk_anykey)){
 	//Shoot bullet
-if(keyboard_check_pressed(vk_space)){
+if(keyboard_check_pressed(vk_anykey)){
 	create_bullet(image_angle,bulletSpd,faction,id);   
 }
 
