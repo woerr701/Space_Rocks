@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_powerupability","path":"sprites/spr_powerupability/spr_powerupability.yy",},"order":11,},
     {"id":{"name":"spr_asteroid_huge","path":"sprites/spr_asteroid_huge/spr_asteroid_huge.yy",},"order":3,},
     {"id":{"name":"spr_hunter","path":"sprites/spr_hunter/spr_hunter.yy",},"order":7,},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":1,},

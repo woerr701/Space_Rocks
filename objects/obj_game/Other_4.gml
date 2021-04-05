@@ -16,7 +16,8 @@ if(room == rm_game){
 	}
 	
 	
-	repeat(3){
+	repeat(3)
+	{
 		var xx = choose(
 			irandom_range(0, room_width*0.3),
 			irandom_range(room_width*0.7, room_width)
@@ -29,7 +30,8 @@ if(room == rm_game){
 	}
 	
 	
-	repeat(2){
+	repeat(2)
+	{
 		var xx = choose(
 			irandom_range(0, room_width*0.3),
 			irandom_range(room_width*0.7, room_width)
@@ -42,7 +44,8 @@ if(room == rm_game){
 	}
 	
 	
-	repeat(4){
+	repeat(4)
+	{
 		var xx = choose(
 			irandom_range(0, room_width*0.3),
 			irandom_range(room_width*0.7, room_width)
