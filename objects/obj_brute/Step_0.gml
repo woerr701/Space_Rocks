@@ -16,6 +16,6 @@ if(point_distance(x,y, obj_ship.x, obj_ship.y) < 250){
 
 //otherwise, no chnage
 
-speed = lerp(speed, 3,0.1);
+speed = lerp(speed, 2,0.1);
 
 }

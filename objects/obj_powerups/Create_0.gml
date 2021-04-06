@@ -1,6 +1,6 @@
 image_index = irandom_range(0, 5)
 
-alarm[0] = 5 * room_speed;
+alarm[0] = 60 * room_speed;
 
 image_blend = c_lime;
 

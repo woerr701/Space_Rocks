@@ -23,6 +23,7 @@
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":5,},
     {"id":{"name":"spr_brute","path":"sprites/spr_brute/spr_brute.yy",},"order":9,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":8,},
+    {"id":{"name":"spawn_off_camera","path":"scripts/spawn_off_camera/spawn_off_camera.yy",},"order":1,},
     {"id":{"name":"obj_parent_enemy","path":"objects/obj_parent_enemy/obj_parent_enemy.yy",},"order":2,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":4,},
     {"id":{"name":"obj_faction_ally","path":"objects/obj_faction_ally/obj_faction_ally.yy",},"order":1,},

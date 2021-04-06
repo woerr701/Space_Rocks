@@ -1,3 +1,4 @@
 event_inherited()
 
-bulletCounter = 0;
+speed = 1;
+

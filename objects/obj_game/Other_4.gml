@@ -2,15 +2,14 @@
 // You can write your code in this editor
 if(room == rm_game){
 	
-	
 	repeat(10){
 		var xx = choose(
-			irandom_range(0, room_width*0.3),
-			irandom_range(room_width*0.7, room_width)
+			irandom_range(0, room_width*0.2),
+			irandom_range(room_width*0.9, room_width)
 			);
 		var yy = choose(
-			irandom_range(0, room_height*0.3),
-			irandom_range(room_height*0.7, room_width)
+			irandom_range(0, room_height*0.2),
+			irandom_range(room_height*0.9, room_width)
 			);
 		instance_create_layer(xx, yy, "Instances", obj_asteroid); 
 	}
@@ -19,12 +18,12 @@ if(room == rm_game){
 	repeat(3)
 	{
 		var xx = choose(
-			irandom_range(0, room_width*0.3),
-			irandom_range(room_width*0.7, room_width)
+			irandom_range(0, room_width*0.2),
+			irandom_range(room_width*0.9, room_width)
 			);
 		var yy = choose(
-			irandom_range(0, room_height*0.3),
-			irandom_range(room_height*0.7, room_width)
+			irandom_range(0, room_height*0.2),
+			irandom_range(room_height*0.9, room_width)
 			);
 		instance_create_layer(xx, yy, "Instances", obj_hunter); 
 	}
@@ -33,12 +32,12 @@ if(room == rm_game){
 	repeat(2)
 	{
 		var xx = choose(
-			irandom_range(0, room_width*0.3),
-			irandom_range(room_width*0.7, room_width)
+			irandom_range(0, room_width*0.2),
+			irandom_range(room_width*0.9, room_width)
 			);
 		var yy = choose(
-			irandom_range(0, room_height*0.3),
-			irandom_range(room_height*0.7, room_width)
+			irandom_range(0, room_height*0.2),
+			irandom_range(room_height*0.9, room_width)
 			);
 		instance_create_layer(xx, yy, "Instances", obj_brute); 
 	}
@@ -47,12 +46,12 @@ if(room == rm_game){
 	repeat(4)
 	{
 		var xx = choose(
-			irandom_range(0, room_width*0.3),
-			irandom_range(room_width*0.7, room_width)
+			irandom_range(0, room_width*0.2),
+			irandom_range(room_width*0.9, room_width)
 			);
 		var yy = choose(
-			irandom_range(0, room_height*0.3),
-			irandom_range(room_height*0.7, room_width)
+			irandom_range(0, room_height*0.2),
+			irandom_range(room_height*0.9, room_width)
 			);
 		instance_create_layer(xx, yy, "Instances", obj_raider); 
 	}
